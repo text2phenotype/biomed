@@ -1,0 +1,5 @@
+outs:
+- md5: 4564f18ebbc1c49c074e647613d3326c.dir
+  size: 18083519
+  nfiles: 6
+  path: onc_summary_5ep_lr0.001_a1

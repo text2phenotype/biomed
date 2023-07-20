@@ -1,0 +1,5 @@
+outs:
+- md5: ec23bd45da3e218b60caa3e610d36fd7.dir
+  size: 433530567
+  nfiles: 7
+  path: diagnosis_cbert_20210119_w64

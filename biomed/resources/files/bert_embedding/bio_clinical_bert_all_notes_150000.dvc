@@ -1,0 +1,5 @@
+outs:
+- md5: c7fdfdb4486e54b637f8abf7dc2ef2e9.dir
+  path: bio_clinical_bert_all_notes_150000
+  size: 526899499
+  nfiles: 6

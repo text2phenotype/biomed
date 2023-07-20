@@ -1,0 +1,142 @@
+
+def build_timestamp_tag = env.BUILD_TIMESTAMP_TAG
+
+// These variables come from the build parameters in the Jenkins job
+def BIOMED_BRANCH = BIOMED_BRANCH
+def FEATURE_SERVICE_BRANCH = FEATURE_SERVICE_BRANCH
+def TEXT2PHENOTYPE_PY_BRANCH = TEXT2PHENOTYPE_PY_BRANCH
+def git_repo = git_repo
+
+pipeline  {
+  agent {
+    kubernetes {
+      cloud 'eks-tools-prod-20191113'
+      yaml """
+apiVersion: v1
+kind: Pod
+spec:
+  serviceAccount: nlp-builder
+  serviceAccountName: nlp-builder
+  containers:
+  - name: jenkins-image
+    image: text2phenotype.com/jenkins-image:latest
+    tty: true
+    resources:
+      limits:
+        cpu: 5
+        memory: 14Gi
+      requests:
+        cpu: 3
+        memory: 9Gi
+"""
+    }
+  }
+  options { skipDefaultCheckout() }
+
+  stages {
+    stage('Multiple repo checkout') {
+      steps {
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: BIOMED_BRANCH]],
+          doGenerateSubmoduleConfigurations: false,
+          extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'biomed'],[$class: 'GitLFSPull']],
+          submoduleCfg: [],
+          userRemoteConfigs: [[credentialsId: '8fda06db-84a1-4494-b78c-7b0d52d5a9d4',
+                  url: git_repo]]
+        ])
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: FEATURE_SERVICE_BRANCH ]],
+          doGenerateSubmoduleConfigurations: false,
+          extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'feature-service'],[$class: 'GitLFSPull']],
+          submoduleCfg: [],
+          userRemoteConfigs: [[credentialsId: '8fda06db-84a1-4494-b78c-7b0d52d5a9d4',
+                  url: 'git@git.text2phenotype.com:data-management/nlp/feature-service.git']]
+        ])
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: TEXT2PHENOTYPE_PY_BRANCH ]],
+          doGenerateSubmoduleConfigurations: false,
+          extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'text2phenotype-py']],
+          submoduleCfg: [],
+          userRemoteConfigs: [[credentialsId: '8fda06db-84a1-4494-b78c-7b0d52d5a9d4',
+                  url: 'git@git.text2phenotype.com:data-management/nlp/text2phenotype-py.git']]
+        ])
+      }
+    }
+    stage('Train-Test Job') {
+      steps {
+        container(name: 'jenkins-image', shell: '/bin/bash') {
+          sh """#!/bin/bash
+          export WORKSPACE=${env.WORKSPACE}
+          export BUILD_NUMBER=${env.BUILD_NUMBER}
+          export TRAIN=${env.TRAIN}
+          export TEST=${env.TEST}
+          export PIP_CONFIG_FILE="$WORKSPACE/biomed/bin/pip.conf"
+
+          export BIOMED_PRELOAD=False
+          export MDL_BIOM_DATA_ROOT="${WORKSPACE}/biomed-data"
+          export MDL_BIOM_PRELOAD=False
+          export MDL_BIOM_SMOKING_CLINICAL=True
+          export MDL_BIOM_USE_STORAGE_SVC=True
+          export MDL_BIOM_VITAL_SIGNS_CLINICAL=True
+          export MDL_COMN_BIOMED_API_BASE=http://0.0.0.0:8080
+          export MDL_COMN_DATA_ROOT="\$MDL_BIOM_DATA_ROOT"
+          export MDL_COMN_STORAGE_CONTAINER_NAME=text2phenotype-biomed-data
+          export MDL_COMN_USE_STORAGE_SVC=True
+          export MDL_FEAT_API_BASE=http://0.0.0.0:8081
+          export MDL_FEAT_UMLS_REQUEST_MODE=false
+          export NLP_HOST="https://ctakes-dev-nlp-ci.mdl-dev.in/nlp/rest"
+	  export MDL_FEAT_UMLS_HOST="https://ctakes-dev-nlp-ci.mdl-dev.in/nlp/rest"
+
+          env
+
+          mkdir -p "\$MDL_BIOM_DATA_ROOT"
+
+          # Feature service
+          cd $WORKSPACE/feature-service
+          python3 -m virtualenv venv
+          source venv/bin/activate
+          venv/bin/pip install ../text2phenotype-py
+          venv/bin/pip install .
+          venv/bin/python nltk_download.py
+          echo ">> Starting Feature Service..."
+          venv/bin/python feature_service &> feature_service-stdout.log &
+          deactivate
+
+          # Biomed
+          cd $WORKSPACE/biomed
+          python3 -m virtualenv venv
+          source venv/bin/activate
+          venv/bin/pip install openpyxl
+          venv/bin/pip install ../text2phenotype-py
+          venv/bin/pip install .
+          venv/bin/pip install dvc[s3]
+          venv/bin/dvc pull
+          echo ">> Starting Train/test job..."
+          echo "Job Id: $BUILD_NUMBER"
+          venv/bin/python ./train_test_build.py -model_type "$MODEL_TYPE" -train "$TRAIN" -test_ensemble "$TEST_ENSEMBLE" -test "$TEST" -job_id "$BUILD_NUMBER" -metadata $METADATA
+          RET_VAL="\$?"
+          echo ">> Finished Train/test job..."
+          exit \$RET_VAL
+          """
+        }
+      }
+    }
+  }
+  post {
+    success {
+      addGitLabMRComment comment: 'Pipeline ran successfully'
+      updateGitlabCommitStatus name: 'Pipeline ran successfully', state: 'success'
+    }
+    aborted {
+      addGitLabMRComment comment: 'Pipeline has been aborted'
+      updateGitlabCommitStatus name: 'Pipeline has been aborted', state: 'canceled'
+    }
+    failure {
+      addGitLabMRComment comment: 'Pipeline has failed'
+      updateGitlabCommitStatus name: 'Pipeline has been failed', state: 'failed'
+    }
+  }
+}

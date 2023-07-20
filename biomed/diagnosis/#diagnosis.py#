@@ -1,0 +1,175 @@
+from typing import Dict, List
+
+from biomed.biomed_env import BiomedEnv
+from biomed.common.biomed_summary import FullSummaryResponse
+from biomed.common.helpers import get_prefered_covid_concept, get_pref_umls_concept_polarity, get_longest_pref_text
+from biomed.constants.constants import get_ensemble_version, ModelType, ICD10_CATEGORY
+from biomed.common.combined_model_label import DiseaseSignSymptomLabel
+from biomed.meta.ensembler import Ensembler
+from biomed.common.biomed_ouput import SummaryOutput
+from biomed.common.aspect_response import AspectResponse
+from biomed.models.model_cache import ModelCache
+
+from text2phenotype.common.featureset_annotations import MachineAnnotation, Vectorization
+from text2phenotype.apm.metrics import text2phenotype_capture_span
+from text2phenotype.common.log import operations_logger
+from text2phenotype.constants.features import FeatureType, ProblemLabel, SignSymptomLabel
+from text2phenotype.constants.umls import SemTypeCtakesAsserted
+
+
+@text2phenotype_capture_span()
+def diagnosis_sign_symptoms(tokens: MachineAnnotation,
+                            vectors: Vectorization,
+                            text: str,
+                            biomed_version: str = BiomedEnv.DEFAULT_BIOMED_VERSION.value,
+                            use_cui_rules: bool = True,
+                            **kwargs) -> dict:
+    """
+    return the diagnosis terms recommended bilstm diagnosis model and append the attribute if clinical find the
+    attribute of this only append attribute of the terms if name in ['DiseaseDisorderMention', 'SignSymptomMention']
+    # TODO: need to add SignSymptom to chunker_clinical also
+    """
+    # JIRA BIOMED-544
+    # JIRA BIOMED-653
+    if not tokens.output_dict:
+        return dict()
+    ensemble_version = get_ensemble_version(ModelType.diagnosis, biomed_version)
+    ensembler = Ensembler(
+        model_type=ModelType.diagnosis,
+        model_file_list=ensemble_version.model_names,
+        voting_method=ensemble_version.voting_method,
+    )
+
+    res = ensembler.predict(tokens, vectors=vectors, **kwargs)
+    bilstm_problem = res.predicted_category
+    problem_probabilities = res.predicted_probs
+    problem_result = []
+    sign_symptom_result = []
+    cui_rule = ModelCache().cui_rule()
+    rep_feature_type = kwargs.get('representation_feature') or FeatureType.clinical
+    for i in range(len(tokens)):
+        if bilstm_problem[i] != 0:
+            token_text = tokens.tokens[i]
+            range_txt = tokens.range[i]
+            # temporary patch try and get covid representation entities
+            umls_concept, polarity = get_prefered_covid_concept(tokens, i)
+            # if not picked up from patch, act as normal
+            if not umls_concept:
+                # get original umls concepts
+                clinical_res = tokens[rep_feature_type, i]
+
+                umls_concept, polarity, _ = get_pref_umls_concept_polarity(
+                    clinical_res, [SemTypeCtakesAsserted.DiseaseDisorder.name, SemTypeCtakesAsserted.SignSymptom.name],
+                    get_longest_pref_text)
+
+            # include problems predicted as diagnosis with probability > threshold % or
+            # predicted as problems that also have an associated umls concept and positive polarity and probability > 5%
+            if (problem_probabilities[i, int(bilstm_problem[i])] > ensembler.ensemble_metadata.threshold or
+                    (umls_concept is not None and polarity == 'positive')):
+                if umls_concept is None:
+                    umls_concept = {}
+                if use_cui_rules:
+                    cui_aspects = cui_rule.get(umls_concept.get('cui'))
+                    # if there's a cui match in concept_aspect_map then diseasesign or diagnosis must be in the aspect list
+                    if cui_aspects and 'diseasesign' not in cui_aspects.get('aspect_list') \
+                            and 'diagnosis' not in cui_aspects.get('aspect_list'):
+                        operations_logger.debug(
+                            f'CUI_RULE aspects: {cui_aspects} do not include diagnosis or diseasesign',
+                            tid=kwargs.get('tid'))
+                        continue
+                if bilstm_problem[i] == DiseaseSignSymptomLabel.diagnosis.value.column_index:
+                    problem_result.append(
+                        SummaryOutput(
+                            text=token_text,
+                            range=range_txt,
+                            lstm_prob=problem_probabilities[i, int(bilstm_problem[i])],
+                            umlsConcept=umls_concept,
+                            attributes={'polarity': polarity},
+                            label=DiseaseSignSymptomLabel.diagnosis.value.persistent_label))
+                elif bilstm_problem[i] == DiseaseSignSymptomLabel.signsymptom.value.column_index:
+                    sign_symptom_result.append(
+                        SummaryOutput(
+                            text=token_text,
+                            range=range_txt,
+                            lstm_prob=problem_probabilities[i, int(bilstm_problem[i])],
+                            umlsConcept=umls_concept,
+                            attributes={'polarity': polarity},
+                            label=DiseaseSignSymptomLabel.signsymptom.value.persistent_label))
+    full_response = FullSummaryResponse()
+    full_response.add(AspectResponse(ProblemLabel.get_category_label().persistent_label, problem_result))
+    full_response.add(
+        AspectResponse(SignSymptomLabel.get_category_label().persistent_label, sign_symptom_result))
+    full_response.postprocess(text=text)
+    return full_response.to_json(model_type=ModelType.diagnosis, biomed_version=biomed_version)
+
+
+def get_icd_response(tokens: MachineAnnotation,
+                     vectors: Vectorization,
+                     text: str,
+                     biomed_version: str = BiomedEnv.DEFAULT_BIOMED_VERSION.value,
+                     use_cui_rules: bool = True,
+                     **kwargs):
+    """
+    :param tokens: machine annotation object, ressult of annotate_text
+    :param vectors: vectorization object, result of vectorize
+    :param text: raw text
+    :param biomed_version: str, defaults to env variable, determines which diagnosis models to use
+    :param use_cui_rules: boolean on whether to use cui rules
+    :param kwargs:
+    :return: A dictionary output with  keys VersionInfo, DiseaseDisorder, SignSymptom and ICD10ClinicalCode
+    """
+    # get diagnosis response and append icd10_clincial_code feature matches
+
+    full_response = diagnosis_sign_symptoms(
+        tokens=tokens,
+        vectors=vectors,
+        text=text,
+        biomed_version=biomed_version,
+        use_cui_rules=use_cui_rules,
+        representation_feature=FeatureType.icd10_diagnosis)
+    clinical_code_output = get_biomed_output_from_clinical_code_feature(tokens=tokens)
+    clinical_code_aspect_response = AspectResponse(ICD10_CATEGORY, clinical_code_output).to_json()
+    full_response = {**full_response, **clinical_code_aspect_response}
+    return full_response
+
+
+def get_biomed_output_from_clinical_code_feature(tokens: MachineAnnotation) -> List[SummaryOutput]:
+    """
+    :param tokens: Machine annotaiton object (result of annotate_text)
+    :return: a list of summary output objects that are from teh clinical_code_icd10 feature which annotates
+    tokens that are also valid icd10 codes, ie text: M46.19 gets annotated but the text equivalent back pain does not
+    """
+    output = []
+    for token_idx in tokens[FeatureType.clinical_code_icd10].token_indexes:
+        umls_output = get_best_icd10_code_representation(tokens[FeatureType.clinical_code_icd10, token_idx])
+        output.append(
+            SummaryOutput(
+                text=tokens.tokens[int(token_idx)],
+                range=tokens.range[int(token_idx)],
+                score=0,
+                umlsConcept=umls_output
+
+            ))
+    return output
+
+
+def get_best_icd10_code_representation(annotation: List[Dict[str, List[dict]]]) -> dict:
+    """
+    :param annotation: single token level annotaiton for a feature (expected to be FeatureType.clinical_code_icd10 but could be any feature)
+    :return: the umls concept with the longest code, this works for the clinical_code_icd10 feature bc it tags
+     tokens that are valid ICD10 codes and the only variation you see for a given token is partial vs full codes found
+    """
+    codes = list()
+    if len(annotation) >= 1:
+        for annot in annotation:
+            if isinstance(annot, dict) and len(annot) >= 1:
+                for resp_list in annot.values():
+                    if isinstance(resp_list, list):
+                        for resp in resp_list:
+                            if resp.get('code'):
+                                codes.append(resp)
+    if len(codes) >= 1:
+        # return teh longest code
+        code = sorted(list(codes), key=lambda x: len(x['code']), reverse=True)[0]
+
+        return code

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  biomed:
+    image: "docker.text2phenotype.com/biomed:${TAG_RANDOM_SEED}"
+    command: bin/docker-test-unit.sh
+    volumes:
+      - ../text2phenotype-samples:/app/text2phenotype-samples
+    networks:
+      biomed:
+        aliases:
+          - biomed
+
+networks:
+  biomed:

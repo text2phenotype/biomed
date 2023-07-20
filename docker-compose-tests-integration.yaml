@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  biomed:
+    image: "docker.text2phenotype.com/biomed:${TAG_RANDOM_SEED}"
+    command: bin/docker-test-integration.sh
+    networks:
+      biomed:
+        aliases:
+          - biomed
+
+  biomed-metadata:
+    image: "docker.text2phenotype.com/biomed:${TAG_RANDOM_SEED}"
+    command: python biomed --models-metadata-service
+    networks:
+      biomed:
+        aliases:
+          - biomed-metadata
+
+
+  text2phenotype-app:
+    image: "docker.text2phenotype.com/text2phenotype-app:dev_latest"
+    command: bin/docker-test-integration.sh
+    networks:
+      biomed:
+        aliases:
+          - text2phenotype-app
+
+  feature-service:
+    image: "docker.text2phenotype.com/feature-service:dev_latest"
+    command: python feature_service
+    networks:
+      biomed:
+        aliases:
+          - feature-service
+
+
+
+
+  # nlp:
+  #   image: "text2phenotype/nlp:dev"
+  #   networks:
+  #     biomed:
+  #       aliases:
+  #         - nlp
+
+networks:
+  biomed:

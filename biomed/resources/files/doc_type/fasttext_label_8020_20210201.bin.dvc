@@ -1,0 +1,4 @@
+outs:
+- md5: 5290db6584c5899e6733f7c95f867619
+  size: 1050691370
+  path: fasttext_label_8020_20210201.bin

@@ -1,0 +1,5 @@
+outs:
+- md5: 9d517fb26754c92f8f503bf24e0fc95e.dir
+  size: 5399104
+  nfiles: 5
+  path: 2607_sequoia_lstm_d1

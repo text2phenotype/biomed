@@ -1,0 +1,5 @@
+outs:
+- md5: 571af9f687b4669ad046d88b1632cc87.dir
+  size: 433531457
+  nfiles: 8
+  path: drug_cbert_20210107_w64

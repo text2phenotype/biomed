@@ -1,0 +1,13 @@
+# List specific package requirements
+# To create full dependency requirements, compile with:
+#    pip-compile -v requirements-dev.in
+
+-r requirements.txt
+
+black
+coverage
+dvc~=2.1.0
+ipython
+ipympl
+jupyter
+pip-tools  # bootstrapping never hurt no one, right?

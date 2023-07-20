@@ -1,0 +1,20 @@
+{
+  "MDL_COMN_APPLICATION_NAME": "Biomed Service",
+  "MDL_BIOM_SVC_HOST": "0.0.0.0",
+  "MDL_BIOM_SVC_PORT": 8081,
+  "MDL_BIOM_DATA_ROOT": "/mnt/S3",
+  "MDL_BIOM_PRELOAD": true,
+  "MDL_BIOM_USE_STORAGE_SVC": true,
+  "MDL_BIOM_DB_URL_DEID": "mysql://text2phenotype:text2phenotype@localhost/DEID",
+  "MDL_BIOM_DB_URL_PHI": "mysql://text2phenotype:text2phenotype@localhost/PHI",
+  "MDL_BIOM_APM_SERVICE_NAME": "Text2phenotype Biomed Service",
+  "MDL_BIOM_HEPC_FORM_FILTER": 2,
+  "MDL_BIOM_PATIENT_MATCHING_ENABLED": true,
+  "MDL_SANDS_DB_USERNAME": "sands_user",
+  "MDL_SANDS_DB_PASSWORD": "123abc",
+  "MDL_SANDS_DB_HOSTNAME": "localhost",
+  "MDL_SANDS_DB_PORT": 3306,
+  "MDL_SANDS_DB_NAME": "sands",
+  "MDL_SANDS_DEMOGRAPHIC_TABLE": "app_documentdemographics",
+  "MDL_BIOM_MAX_THREAD_COUNT": null
+}

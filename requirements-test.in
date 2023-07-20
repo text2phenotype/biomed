@@ -1,0 +1,5 @@
+# List specific package requirements
+# To create full dependency requirements, compile with:
+#    pip-compile -v requirements-test.in
+
+-r requirements.txt

@@ -1,0 +1,5 @@
+outs:
+- md5: 63972094a35480c862c7003c8ee334ed.dir
+  path: phi_covid_labs_v2_2020_11_12_2
+  size: 1818556
+  nfiles: 9

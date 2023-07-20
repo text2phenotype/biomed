@@ -1,0 +1,126 @@
+openapi: 3.0.0
+info:
+  description: This service exposes all of Medal's BioMed functionality
+  version: 0.1.0
+  title: Medal BioMed
+  contact:
+    email: andy@medal.com
+tags:
+  - name: De-Identification
+  - name: Clinical Summary
+  - name: HepC
+  - name: Demographics
+  - name: Patient Matching
+  - name: Status
+  - name: Oncology
+  - name: Features
+  - name: Train Test
+paths:
+  /requiredfeatures:
+    post:
+      tags:
+        - Features
+      summary: Given a set of operations return the features used for the default required models
+      operationId: get_full_feature_list
+      requestBody:
+        $ref: '#/components/requestBodies/BiomedRequest'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Unsuccessful operation
+      x-openapi-router-controller: biomed.controllers.feature_list_controller
+  /traintest:
+    post:
+      tags:
+        - Train Test
+      summary: Given metadata, train and/or test a model
+      operationId: train_test
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BiomedRequest'
+        description: model metadata and transaction id
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Unsuccessful operation
+      x-openapi-router-controller: biomed.controllers.train_test_controller
+  /traintesttask:
+    post:
+      tags:
+        - Train Test
+      summary: Given metadata, train and/or test a model using worker model
+      operationId: train_test_task
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BiomedRequest'
+        description: model metadata and transaction id
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Unsuccessful operation
+      x-openapi-router-controller: biomed.controllers.train_test_controller
+  /health/live:
+    get:
+      tags:
+        - Status
+      operationId: live
+      responses:
+        '200':
+          description: The service is alive
+        '500':
+          description: The service is not alive
+      x-openapi-router-controller: biomed.controllers.status_controller
+  /health/ready:
+    get:
+      tags:
+        - Status
+      operationId: ready
+      responses:
+        '200':
+          description: The service is ready
+        '500':
+          description: The service is not ready
+      x-openapi-router-controller: biomed.controllers.status_controller
+  /version:
+    get:
+      tags:
+        - Status
+      operationId: version
+      responses:
+        '200':
+          description: Version information
+        '500':
+          description: Unsuccessful operation
+      x-openapi-router-controller: biomed.controllers.status_controller
+components:
+  requestBodies:
+    BiomedRequest:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/BiomedRequest'
+      description: the clinical data, models to use, and transaction id
+      required: true
+  schemas:
+    BiomedRequest:
+      type: object
+      properties:
+        text:
+          type: string
+          nullable: true
+        data:
+          additionalProperties: true
+        models:
+          additionalProperties: true
+        tid:
+          type: string
+          nullable: true

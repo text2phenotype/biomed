@@ -1,0 +1,26 @@
+T1	diagnosis 20 40	Acute kidney failure
+T2	diagnosis 135 159	coronary artery disease,
+T3	diagnosis 160 172	hypertension
+T4	diagnosis 174 182	diabetes
+T5	diagnosis 187 192;193 200	stage III CKD
+T6	diagnosis 583 598	kidney failure.
+T7	diagnosis 927 948	prostatic hypertrophy
+T8	problem 1017 1034	urinary dribbling
+T9	problem 1039 1050	weak stream
+T10	problem 1127 1136	dizziness
+T11	problem 1269 1274	dizzy
+T12	diagnosis 2079 2102	Coronary artery disease
+T13	diagnosis 2197 2211	Heart failure,
+T14	diagnosis 2243 2255	Hypertension
+T16	diagnosis 2273 2281	Diabetes
+T15	problem 2338 2359	mitral regurgitation.
+T17	diagnosis 2365 2374	GI bleed.
+T18	diagnosis 2380 2394	Hyperlipidemia
+T19	diagnosis 2401 2404	BPH
+T20	diagnosis 2432 2444	Sleep apnea.
+T21	diagnosis 5465 5488	chronic kidney failure.
+T22	diagnosis 5507 5520	stage III CKD
+T23	problem 5575 5586	hypotension
+T24	problem 5716 5737	prostatic hypertrophy
+T25	diagnosis 5851 5874	interstitial nephritis.
+T26	diagnosis 6337 6345	myositis

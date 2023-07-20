@@ -1,0 +1,3 @@
+[global]
+index = https://nexus.cioxhealth.com/repository/pypi-proxy
+index-url = https://nexus.cioxhealth.com/repository/pypi-proxy/simple

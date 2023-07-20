@@ -1,0 +1,2 @@
+graft biomed/resources
+prune biomed/tests

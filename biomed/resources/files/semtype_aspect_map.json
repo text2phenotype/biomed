@@ -1,0 +1,290 @@
+{
+    "T131": {
+        "tui": "T131",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Hazardous or Poisonous Substance"
+        ],
+        "aspect_list": [
+            "allergy"
+        ]
+    },
+    "T046": {
+        "tui": "T046",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Pathologic Function"
+        ],
+        "aspect_list": [
+            "allergy",
+            "diagnosis"
+        ]
+    },
+    "T195": {
+        "tui": "T195",
+        "sab": [
+            "RXNORM"
+        ],
+        "sty": [
+            "Antibiotic"
+        ],
+        "aspect_list": [
+            "medication",
+            "allergy"
+        ]
+    },
+    "T061": {
+        "tui": "T061",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Therapeutic or Preventive Procedure"
+        ],
+        "aspect_list": [
+            "treatment",
+            "immunization",
+            "procedure"
+        ]
+    },
+    "T109": {
+        "tui": "T109",
+        "sab": [
+            "RXNORM"
+        ],
+        "sty": [
+            "Organic Chemical"
+        ],
+        "aspect_list": [
+            "lab",
+            "?",
+            "medication",
+            "allergy"
+        ]
+    },
+    "T121": {
+        "tui": "T121",
+        "sab": [
+            "RXNORM"
+        ],
+        "sty": [
+            "Pharmacologic Substance"
+        ],
+        "aspect_list": [
+            "lab",
+            "diagnosis?",
+            "?",
+            "medication"
+        ]
+    },
+    "T196": {
+        "tui": "T196",
+        "sab": [
+            "RXNORM"
+        ],
+        "sty": [
+            "Element, Ion, or Isotope"
+        ],
+        "aspect_list": [
+            "lab",
+            "physical_exam",
+            "medication"
+        ]
+    },
+    "T123": {
+        "tui": "T123",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Biologically Active Substance"
+        ],
+        "aspect_list": [
+            "lab",
+            "?",
+            "medication"
+        ]
+    },
+    "T184": {
+        "tui": "T184",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Sign or Symptom"
+        ],
+        "aspect_list": [
+            "problem"
+        ]
+    },
+    "T047": {
+        "tui": "T047",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Disease or Syndrome"
+        ],
+        "aspect_list": [
+            "diagnosis",
+            "problem"
+        ]
+    },
+    "T037": {
+        "tui": "T037",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Injury or Poisoning"
+        ],
+        "aspect_list": [
+            "diagnosis",
+            "problem",
+            "allergy"
+        ]
+    },
+    "T190": {
+        "tui": "T190",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Anatomical Abnormality"
+        ],
+        "aspect_list": [
+            "diagnosis",
+            "problem"
+        ]
+    },
+    "T127": {
+        "tui": "T127",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Vitamin"
+        ],
+        "aspect_list": [
+            "?",
+            "lab"
+        ]
+    },
+    "T025": {
+        "tui": "T025",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Cell"
+        ],
+        "aspect_list": [
+            "lab"
+        ]
+    },
+    "T126": {
+        "tui": "T126",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Enzyme"
+        ],
+        "aspect_list": [
+            "lab"
+        ]
+    },
+    "T116": {
+        "tui": "T116",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Amino Acid, Peptide, or Protein"
+        ],
+        "aspect_list": [
+            "lab"
+        ]
+    },
+    "T034": {
+        "tui": "T034",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Laboratory or Test Result"
+        ],
+        "aspect_list": [
+            "physical_exam",
+            "lab"
+        ]
+    },
+    "T059": {
+        "tui": "T059",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Laboratory Procedure"
+        ],
+        "aspect_list": [
+            "physical_exam",
+            "lab",
+            "procedure"
+        ]
+    },
+    "T060": {
+        "tui": "T060",
+        "sab": [
+            "LNC"
+        ],
+        "sty": [
+            "Diagnostic Procedure"
+        ],
+        "aspect_list": [
+            "physical_exam",
+            "lab",
+            "procedure"
+        ]
+    },
+    "T023": {
+        "tui": "T023",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Body Part, Organ, or Organ Component"
+        ],
+        "aspect_list": [
+            "physical_exam"
+        ]
+    },
+    "T029": {
+        "tui": "T029",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Body Location or Region"
+        ],
+        "aspect_list": [
+            "physical_exam"
+        ]
+    },
+    "T040": {
+        "tui": "T040",
+        "sab": [
+            "SNOMEDCT_US"
+        ],
+        "sty": [
+            "Organism Function"
+        ],
+        "aspect_list": [
+            "physical_exam"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+T1	diagnosis 115 132	chronic sinusitis
+T2	problem 231 240	sinusitis
+T3	problem 4035 4052	allergic rhinitis
+T4	diagnosis 4057 4074	chronic sinusitis
+T12	problem 837 844	sinuses
+T11	problem 1650 1668	Seasonal allergies
+T15	diagnosis 1695 1702;1703 1712	chronic sinusitis
+T16	diagnosis 1714 1726	hypertension
+T17	medication 1955 1963	DynaCirc
+T18	allergy 1977 1995	Egg-based products
+T19	medication 4497 4505	Veramyst
+T20	medication 4598 4612	Medrol Dosepak
+T21	medication 4736 4744	Clarinex
+T8	medication 1202 1209	Allegra
+T9	medication 1256 1263	Allegra

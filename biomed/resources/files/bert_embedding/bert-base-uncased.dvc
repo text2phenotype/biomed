@@ -1,0 +1,3 @@
+outs:
+- md5: 0afd1cb5426bb4064d7f50a51d0d1ae7.dir
+  path: bert-base-uncased

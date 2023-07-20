@@ -1,0 +1,5 @@
+outs:
+- md5: ce290ed019e114bbd2a2e74b606df741.dir
+  size: 19895741
+  nfiles: 5
+  path: voter_rf_diagnosis_20210611

@@ -1,0 +1,2175 @@
+1/22/2015
+Health Information Report Print Preview
+Ambulatory Summary
+DFCI Summarization of Episode Note
+STEVEN KEATING
+Patient
+Contact info
+Patient IDs
+LEARED
+Male
+Not Hispanic or Latino
+Date of birth
+Race
+Preferred Language
+Document Created:
+Care Team
+Contact info
+April 29, 1988
+Sex
+White
+Ethnicity
+English
+January 22, 2015, 12:00:32, EST
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+1/9
+1/22/2015
+Health Information Report Print Preview
+Care Team
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Care Team
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Encounter Date
+Encounter Location
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Responsible party
+Contact info
+CLEARED - DOCTOR NAME + CONTACT INFO
+CLEARED - DOCTOR NAME + CONTACT INFO
+Table of Contents
+Problems
+Medications
+Procedures
+Allergies
+Results
+Vital Signs
+Summary purpose
+Social History
+Plan of Care
+Status
+Comments
+Source
+CLEARED, DOCTOR NAME
+CLEARED, DOCTOR NAME
+Route
+Frequency
+Directions
+Not available
+Status
+Active
+BID
+Source
+CLEARED,
+DOCTOR NAME
+Problems
+Date
+Problems
+07/30/2014
+Brain mass
+Active
+08/19/2014
+Malignant neoplasm of brain Active
+Medications
+Date | Medication Dose
+Form
+10/02/2014 KEPPRA
+Not available Take 1 Tablet(s) PO
+|(LEVETIRACETA
+M) 500MG
+TABLET
+12/30/2014 TEMOZOLOMIDE 10 MG
+Take 2 CAPSULE PO
+5 MG CAPSULE
+12/30/2014 TEMOZOLOMIDE 140 MG
+Take 1 CAPSULE PO
+140 MG
+CAPSULE
+11/26/2014 ZOFRAN
+8 MG
+Take 1 TABLET PO
+(CHEMO N/V)
+(ONDANSETRON
+HCL (CHEMO
+N/V)) 8 MG
+TABLET
+11/26/2014 MEMANTINE 10 Not available Not available PO
+MG TABLET
+Active
+QD
+Temozolomide
+75m2/d
+Temozolomide
+75mg/m2/d
+CLEARED,
+DOCTOR NAME
+CLEARED,
+DOCTOR NAME
+Active
+CLEARED,
+Q8H PRN nausea Take 1 40-60min Active
+before
+chemotherapy
+DOCTOR NAME
+as directed
+CLEARED,
+DOCTOR NAME
+CLEARED,
+5mg (1/2 pill) at Active
+night for 1
+week; then 5mg
+|(1/2 pill) twice
+daily for 1 week;
+then 5mg (1/2
+pill) in am, 10
+mg (whole pill )
+in PM for one
+week, then
+10mg twice daily
+therafter
+3x/week (Mon, Active
+Wed, Fri)
+DOCTOR NAME
+12/30/2014
+Take 1 TABLET PO
+as directed
+CLEARED,
+BACTRIM DS Not available
+(TRIMETHOPRIM
+VSULFAMETHOX
+AZOLE DOUBLE
+STRENGTH)
+160-800MG
+TABLET
+DEXAMETHASON 4 MG
+E 4 MG TABLET
+DOCTOR NAME
+12/30/2014
+Take 1 TABLET PO
+ke 1 TABLET PC
+as directed
+as directed
+the
+take 30-60
+minutes prior to
+flying
+prior
+Active
+CLEARED
+Procedures
+Date
+Procedures
+INo procedure data is applicable
+01/22/2015 12:00
+Allergies
+Date
+08/29/2014 11:48
+Status
+Comments
+Source
+Allergies
+Penicillins
+Reaction
+Rash
+Severity
+uncoded
+Active
+Not Available
+CLEARED
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A...
+2/9
+e
+1/22/2015
+Health Information Report Print Preview
+Results
+Date
+Test
+Value
+Reference Range Abnormal Flag | Comments Ordering Provider
+01/21/2015 14:40 Plasma Sodium 141 mmol/L
+135-145 mmol/L Not available Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Potassium 3.5 mmol/L
+3.4-5.0 mmol/
+L N ot available Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Chloride 101 mmol/L
+100-108 mmol/L Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Carbon 26 mmol/L
+23-32 mmol/L Not available
+Not available
+LELAND, PEGGY A
+Dioxide
+BPTC 1
+01/21/2015 14:40 Transaminase-SGPT 21 U/L
+10-55 U/L
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Transaminase-SGOT 23 U/L
+10-40 U/L
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Alkaline Phosphatase 61 U/L
+45-115 U/L
+Not available Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Total Bilirubin 0.6 mg/dL
+0.0-1.0 mg/dL Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Total Protein 7.4 g/dL
+16.0-8.3 g/dL Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Albumin
+5.0 g/dL
+|3.3-5.0 g/dL Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Globulin
+2.4 g/dL
+1.9-4.1 g/dL
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Urea Nitrogen 11 mg/dL
+8-25 mg/dL
+Not available Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Calcium
+9.4 mg/dL
+8.5-10.5 mg/dL Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Creatinine 0.96 mg/dL
+0.60-1.50 mg/dL Not available Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Glucose 101 mg/dL
+170-110 mg/dL Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Magnesium
+2.1 mg/dL
+1.7-2.4 mg/dL Not available
+NOTE: New reporting LELAND, PEGGY A
+units of mg/dL versus BPTC 1
+meq/L as of 11/2/14.
+Values reported are
+1.2x higher with new
+units.
+01/21/2015 14:40 Phosphorus
+4.0 mg/dL
+2.6-4.5 mg/dL INot available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 WBC
+6.93 K/ul
+4.5-11.0 K/UL Not available
+Not available
+LELAND.PEGGY A
+BPTC 1
+01/21/2015 14:40 HCT
+44.5 %
+41.0-53.0 %
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 HGB
+14.8 g/dL
+13.5-17.5 g/dL Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 RBC
+5.11 M/UL
+4.50-5.90 M/L Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 PLT
+323 K/UL
+150-400 K/ul Not available Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 MCV
+87.1 fL
+80.0-100.0 fL
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 MCH
+26.0-34.0 pg Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 MCHC
+33.3 g/dL
+31.0-37.0 g/dL Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 RDW
+12.4 %
+11.5-14.5 %
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 MPV
+9.8 fl
+8.4-12.0 fl
+Not available Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Plasma Anion GAP 14 mmol/L
+3-17 mmol/L
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 EOS
+1.4 %
+0-8 %
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Basos
+0.4 %
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Lymphs
+24.7 %
+22-44 %
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Monos
+8.7 %
+4-11 %
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Absolute EOS 0.10 K/ul
+0.0-0.9 K/UL
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Absolute Basos 0.03 K/ul
+0.0-0.3 K/UL
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Absolute Lymphs 1.71 K/ul
+1.0-4.8 K/ul Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Absolute Monos 0.60 K/ul
+0.2-1.2 K/ul
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Poly
+64.7 %
+40-70 %
+Not available
+Not available
+LELAND,PEGGY A
+BPTC 1
+01/21/2015 14:40 Absolute Neuts 4.48 K/uL
+1.8-7.7 K/UL
+Not available Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Diff Type
+Auto
+Not available
+Not available Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 Absolute NRBC 0.00 K/UL
+O K/UL
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+01/21/2015 14:40 GFR
+|>60
+INot available
+INot available
+Abnormal if <60 LELAND, PEGGY A
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A...
+29.0 pg
+10-3 %
+3/9
+1/22/2015
+Health Information Report Print Preview
+-
+-,
+-
+-,
+-
+-
+-
+-
+-
+-
+-
+-
+--..-...---
+-
+-
+-
+-
+-
+-
+-
+BPTC 1
+mL/min/1.73m2. If
+patient is African-American, multiply
+the result by 1.21.
+Not available
+01/21/2015 14:40
+NRBC
+0.00 /100WBCs
+0 /100WBCS
+Not available
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+135-145 mmol/L
+3.4-5.0 mmol/L
+100-108 mmol/L
+23-32 mmol/L
+Not available
+Not available
+Not available
+Not available
+INot available
+Not available
+Not available
+Not available
+LELAND, PEGGY A
+BPTC 1
+LELAND,PEGGY A
+LELAND,PEGGY A
+LELAND,PEGGY A
+LELAND,PEGGY A
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+Plasma Sodium
+142 mmol/L
+Plasma Potassium 3.9 mmol/L
+Plasma Chloride 102 mmol/L
+Plasma Carbon 26 mmol/L
+Dioxide
+Transaminase-SGPT 18 U/L
+Transaminase-SGOT (22 U/L
+Alkaline Phosphatase 63 U/L
+Total Bilirubin
+0.6 mg/dL
+Total Protein
+7.4 g/dL
+Albumin
+5.0 g/dL
+Globulin
+2.4 g/dL
+Plasma Urea Nitrogen 12 mg/dL
+Calcium
+9.3 mg/dL
+Plasma Creatinine 0.96 mg/dL
+Plasma Glucose 90 mg/dL
+2.0 mg/dL
+10-55 U/L
+10-40 U/L
+45-115 U/L
+0.0-1.0 mg/dL
+6.0-8.3 g/dL
+3.3-5.0 g/dL
+1.9-4.1 g/dL
+8-25 mg/dL
+8.5-10.5 mg/dL
+0.60-1.50 mg/dL
+70-110 mg/dL
+1.7-2.4 mg/dL
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+01/14/2015 15:15
+Phosphorus
+WBC
+HCT
+HGB
+RBC
+PLT
+MCV
+MCH
+MCHC
+RDW
+MPV
+Plasma Anion GAP
+EOS
+Basos
+Lymphs
+Monos
+Absolute EOS
+Absolute Basos
+Absolute Lymphs
+Absolute Monos
+Poly
+Absolute Neuts
+Diff Type
+Absolute NRBC
+leGFR
+OOOOLLLLLL
+4.1 mg/dL
+8.97 K/uL
+43.6 %
+14.9 g/dL
+4.97 M/L
+332 K/UL
+87.7 fL
+30.0 pg
+34.2 g/dL
+12.4 %
+9.7 fl
+14 mmol/L
+0.9 %
+0.4 %
+17.7 %
+11.9 %
+0.08 K/uL
+0.04 K/UL
+1.59 K/UL
+1.07 K/uL
+68.7 %
+6.15 K/UL
+Auto
+0.00 K/UL
+>60
+12.6-4.5 mg/dL
+4.5-11.0 K/UL
+41.0-53.0 %
+13.5-17.5 g/dL
+14.50-5.90 M/L
+150-400 K/ul
+80.0-100.0 fL
+26.0-34.0 pg
+31.0-37.0 g/dL
+11.5-14.5 %
+8.4-12.0 fl
+13-17 mmol/L
+0-8 %
+0-3 %
+22-44 %
+4-11 %
+0.0-0.9 K/ul
+10.0-0.3 K/uL
+1.0-4.8 K/UL
+0.2-1.2 K/ul
+40-70 %
+1.8-7.7 K/UL
+Not available
+o K/uL
+Not available
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+NOTE: New reporting LELAND,PEGGY A
+units of mg/dL versus |
+meq/L as of 11/2/14.
+Values reported are
+1.2x higher with new
+units.
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A.
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+INot available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Not available
+LELAND,PEGGY A
+Abnormal if <60 LELAND,PEGGY A
+mL/min/1.73m2. If
+patient is African-American, multiply
+the result by 1.21.
+Not available
+LELAND, PEGGY A
+Not available
+LELAND,PEGGY A
+COX-3
+Not available
+LELAND,PEGGY A
+COX-3
+Not available
+LELAND, PEGGY A
+COX-3
+Not available
+LELAND, PEGGY A
+COX-3
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+INot available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Not available
+Low
+High
+Not available
+Not available
+Not available
+INot available
+Not available
+Not available
+Not available
+Not available
+Not available
+01/14/2015 15:15
+01/07/2015 14:50
+NRBC
+Plasma Sodium
+0.00 /100WBCS
+140 mmol/L
+10 /100WBCs
+(135-145 mmol/L
+Not available
+Not available
+01/07/2015 14:50
+Plasma Potassium
+4.1 mmol/L
+3.4-5.0 mmol/L
+Not available
+01/07/2015 14:50
+Plasma Chloride
+101 mmol/L
+100-108 mmol/L
+Not available
+01/07/2015 14:50
+30 mmol/L
+23-32 mmol/L
+Not available
+Plasma Carbon
+Dioxide
+Transaminase-SGPT
+01/07/2015 14:50
+20 U/L
+10-55 U/L
+Not available
+INot available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Transaminase-SGOT 23 U/L
+10-40 U/L
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Alkaline Phosphatase 164 U/L
+45-115 U/L
+Not available Not available LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Total Bilirubin 0.5 mg/dL
+0.0-1.0 mg/dL Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Total Protein 17.3 g/dL
+6.0-8.3 g/dL
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Albumin
+4.9 g/dL
+3.3-5.0 g/dL
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Globulin
+2.4 g/dL
+1.9-4.1 g/dL
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Plasma Urea Nitrogen 12 mg/dL
+8-25 mg/dL
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Calcium
+9 .6 mg/dL
+8.5-10.5 mg/dL Not available Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Plasma Creatinine 0.98 mg/dL
+10.60-1.50 mg/dL Not available
+Not available
+LELAND,PEGGY A
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A...
+4/9
+1/22/2015
+Health Information Report Print Preview
+COX-3
+01/07/2015 14:50 Plasma Glucose 101 mg/dL
+70-110 mg/dL Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Magnesium
+2.1 mg/dL
+1.7-2.4 mg/dL Not available
+NOTE: New reporting LELAND,PEGGY A
+units of mg/dL versus COX-3
+meq/L as of 11/2/14.
+Values reported are
+1.2x higher with new
+units.
+01/07/2015 14:50 Phosphorus
+4.3 mg/dL
+2.6-4.5 mg/dL Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 WBC
+7.97 K/uL
+4.5-11.0 K/ul Not available Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 НСТ
+44.0 %
+41.0-53.0 % Not available Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 HGB
+15.3 g/dL
+13.5-17.5 g/dL Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 RBC
+5.07 M/L
+4.50-5.90 M/L Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 PLT
+342 K/uL
+150-400 K/ul Not available Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 MCV
+86.8 fL
+80.0-100.0 fL Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 MCH
+30.2 pg
+26.0-34.0 pg Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 MCHC
+34.8 g/dL
+31.0-37.0 g/dL Not available
+Not available
+LELAND.PEGGY A
+COX-3
+01/07/2015 14:50 RDW
+12.4 %
+11.5-14.5 %
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 MPV
+9.6 fl
+8.4-12.0 fl
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Plasma Anion GAP 9 mmol/L
+3-17 mmol/L Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 EOS
+1.1 %
+10-8 %
+Not available Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Basos
+0.5 %
+0-3 %
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Lymphs
+22.3 %
+22-44 %
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Monos
+13.3 %
+4-11 %
+High
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Absolute EOS 0.09 K/UL
+0.0-0.9 K/UL
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Absolute Basos 0.04 K/ul
+0.0-0.3 K/UL Not available Not available LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Absolute Lymphs 1.78 K/UL
+1.0-4.8 K/ul
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Absolute Monos 1.06 K/ul
+0.2-1.2 K/UL
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Poly
+62.7 %
+40-70 %
+Not available Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 Absolute Neuts 4.99 K/UL
+1.8-7.7 K/UL
+Not available
+INot available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Diff Type
+Auto
+Not available Not available
+Not available
+LELAND, PEGGY A
+COX-3
+01/07/2015 14:50 Absolute NRBC 0.00 K/UL
+O K/UL
+Not available
+Not available
+LELAND,PEGGY A
+COX-3
+01/07/2015 14:50 eGFR
+>60
+Not available
+Not available
+Abnormal if <60 LELAND,PEGGY A
+mL/min/1.73m2. If COX-3
+patient is African-American, multiply
+the result by 1.21.
+01/07/2015 14:50 NRBC
+0.00 /100WBCs 0 /100WBCS
+Not available
+Not available
+LELAND, PEGGY A
+COX-3
+12/30/2014 08:59 NEUTROPHILS
+56.0 %
+46.5-82.4 %
+Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 LYMPHS
+29.6 %
+8.5-32.7 %
+Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 MONO
+10.9 %
+5.4-14.2 %
+Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59
+2.7 %
+0.1-6.0 %
+Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 BASO
+0.8 %
+0.1-1.1 %
+Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 ABS NEUTROPHILS 3.61 K/UL
+2.23-6.11 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 ABS LYMPHS
+1.91 K/UL
+0.21-2.74 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 ABS MONOS
+0.70 K/UL
+0.2-0.87 K/UL
+Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 ABS EOS
+0.17 K/UL
+10.00-0.52 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+12/30/2014 08:59 ABS BASOS
+0.05 K/UL
+0-0.11 K/uL
+Not available
+Not available
+Wen, Patrick Yung MD
+12/09/2014 12:25 Cortisol
+23.6 ug/dl
+Not available
+Not available
+NORMALS: 8AM-12PM TRITOS, NICHOLAS A.
+= 5-25 ug/dl 12PM-8PM = 5-15 ug/dl
+8PM-8AM = <10
+ug/dl Known
+interference [over-estimation] in this
+immunoassay for
+cortisol includes:
+Fludrocortisone
+[9alpha fluorocortisol:
+Florinef] = 35-40%
+and Prednisolone
+Ir Prednisonel = 12-https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A... 5/9
+2014 08:59
+EO
+1/22/2015
+Health Information Report Print Preview
+-
+IL TCUTULI
+15%
+Not available
+12/09/2014 12:25
+Not available
+Not available
+TRITOS, NICHOLAS A
+Chemistry Comments MIN 60 ACTH STIM
+TEST
+Cortisol
+22.6 ug/dl
+12/09/2014 11:55
+Not available
+Not available
+NORMALS: 8AM-12PM TRITOS, NICHOLAS A
+= 5-25 ug/dl 12PM-8PM = 5-15 ug/dl
+8PM-8AM = <10
+ug/dl Known
+interference [over-estimation] in this
+immunoassay for
+cortisol includes:
+Fludrocortisone
+[9alpha fluorocortisol:
+Florinef] = 35-40%
+and Prednisolone
+[Prednisone] = 12-15%
+Not available
+TRITOS,NICHOLAS A
+12/09/2014 11:55
+Not available
+Not available
+12/09/2014 11:25
+0.40-5.00 uIU/mL
+Not available
+Not available
+TRITOS,NICHOLAS A
+12/09/2014 11:25
+12/09/2014 11:25
+Chemistry Comments MIN 30 ACTH STIM
+TEST
+Thyroid Stimulating 0.87 uIU/mL
+Hormone
+Thyroxine
+8.9 ug/dL
+Follicle Stimulating 3.3 IU/L
+Hormone
+Luteinizing Hormone 5.8 IU/L
+Cortisol
+10.6 ug/dl
+timulating
+3:3 19/d.
+4.5-10.9 ug/dL
+Not available
+Not available
+Not available
+INot available
+MEN: 1.0-12.0
+TRITOS, NICHOLAS A
+TRITOS, NICHOLAS A
+12/09/2014 11:25
+12/09/2014 11:25
+Not available
+Not available
+Not available
+Not available
+12/09/2014 11:25
+12/09/2014 11:25
+12/09/2014 11:25
+Prolactin
+Testosterone
+IGF-1, LCMS
+7.1 ng/ml
+536 ng/dL
+238 ng/ml
+0.1-15.2 ng/mL
+249-836 ng/dL
+Not available
+Not available
+Not available
+Not available
+MEN: 2.0-12.0
+TRITOS, NICHOLAS A.
+NORMALS: 8AM-12PM TRITOS, NICHOLAS A
+= 5-25 ug/dl 12PM-8PM = 5-15 ug/dl
+8PM-8AM = <10
+ug/dl Known
+interference [over-estimation] in this
+immunoassay for
+cortisol includes:
+Fludrocortisone
+[9alpha fluorocortisol:
+Florinef] = 35-40%
+and Prednisolone
+[Prednisone] = 12-15%
+Not available
+TRITOS, NICHOLAS A
+Not available
+TRITOS, NICHOLAS A.
+Reference range: 63 TRITOS, NICHOLAS A
+to 373 (NOTE)Test
+performed by: Quest
+Diagnostics Nichols
+Institute 33608
+Ortega Hwy San Juan
+Capistrano, CA 92675
+Director: Jon M.
+Nakamoto, M.D.
+Not available
+TRITOS, NICHOLAS A
+Reference range: TRITOS, NICHOLAS A.
+12.0 to 46.0
+Performed by MAYO
+MEDICAL
+LABORATORIES NEW
+ENGLAND, 160
+Dascomb Road,
+Andover, MA 01810
+Not available TRITOS, NICHOLAS A
+12/09/2014 11:25
+12/09/2014 11:25
+Free T4
+LEVETIRACETAM
+1.5 ng/dL
+14 mcg/mL
+0.9-1.8 ng/dL
+Not available
+INot available
+Not available
+12/09/2014 11:25
+Not available
+Not available
+Chemistry Comments MIN O ACTH STIM
+TEST
+IGF1 Z-SCORE MALE 0.7 SD
+12/09/2014 11:25
+Not available
+Not available
+Reference range: NEG TRITOS, NICHOLAS A
+2.0 to +2.0
+(NOTE)This test was
+developed and its
+performance
+characteristics have
+been determined by
+Quest Diagnostics
+Nichols Institute, San
+Juan Capistrano.
+Performance
+characteristics refer
+to the analytical
+performance of the
+test. Test performed
+by: Quest Diagnostics
+Nichols Institute
+33608 Ortega Hwy
+San Juan Capistrano,
+CA 92675 Director:
+Jon M. Nakamoto,
+M.D.
+12/09/2014 11:25 IGF1 Z-SCORE
+Not available
+Not available
+Not available
+Test component not TRITOS, NICHOLAS A
+FEMALE
+applicable or not
+reported. Reference
+range: SEE COMMENT
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A... 6/9
+1/22/2015
+Health Information Report Print Preview
+*
+(NOTE)Test
+performed by: Quest
+Diagnostics Nichols
+Institute 33608
+Ortega Hwy San Juan
+Capistrano, CA 92675
+Phone: 800-553-5445
+Director: Jon M.
+Nakamoto, M.D. Test
+performed by: Quest
+Diagnostics Nichols
+Institute 33608
+Ortega Hwy San Juan
+Capistrano, CA 92675
+Director: Jon M.
+Nakamoto, M.D.
+11/26/2014 08:40 NEUTROPHILS 59.7 %
+46.5-82.4 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 LYMPHS
+29.0 %
+8.5-32.7 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 MONO
+8.9 %
+5.4-14.2 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 EO
+1.8 %
+0.1-6.0 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 BASO
+0.6 %
+0.1-1.1 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 ABS NEUTROPHILS 4.69 K/UL
+2.23-6.11 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 ABS LYMPHS
+2.28 K/UL
+0.21-2.74 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 ABS MONOS
+0.70 K/UL
+0.2-0.87 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 ABS EOS
+0.14 K/ul
+0.00-0.52 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+11/26/2014 08:40 ABS BASOS
+0.05 K/UL
+0-0.11 K/UL
+Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 NEUTROPHILS 56.7 %
+46.5-82.4 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 LYMPHS
+30.2 %
+8.5-32.7 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 MONO
+10.7 %
+5.4-14.2 %
+INot available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 EO
+1.7 %
+0.1-6.0 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 BASO
+0.7 %
+0.1-1.1 %
+Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 ABS NEUTROPHILS 3.79 K/UL
+2.23-6.11 K/UL Not available
+INot available
+Wen, Patrick Yung MD
+11/11/2014 10:19 ABS LYMPHS
+2.02 K/ul
+10.21-2.74 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 ABS MONOS
+0.72 K/UL
+0.2-0.87 K/UL
+Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 ABS EOS
+0.12 K/UL
+0.00-0.52 K/UL Not available
+Not available
+Wen, Patrick Yung MD
+11/11/2014 10:19 ABS BASOS
+0.05 K/ul
+0-0.11 K/ul
+Not available
+Not available
+Wen, Patrick Yung MD
+08/21/2014 09:23 PT
+14.1 sec
+12.0-14.4 sec Not available
+Not available
+Not available
+08/21/2014 09:23 PT(INR)
+11.1
+0.9-1.1
+Not available
+Not available
+Not available
+08/21/2014 09:23 PTT
+27.7 sec
+23.8-36.6 sec Not available
+Not available
+INot available
+08/20/2014 11:11 GLU-POC
+164 MG/DL
+70-100 MG/DL
+Not available
+Not available
+08/20/2014 06:01 GLU-POC
+150 MG/DL
+70-100 MG/DL
+Not available
+Not available
+08/20/2014 00:39 OSMOLALITY
+285 mOsm/kg
+278-297 mOsm/kg INot available
+Not available
+Not available
+08/20/2014 00:39 PT
+14.3 sec
+12.0-14.4 sec
+Not available
+Not available
+Not available
+08/20/2014 00:39 PT(INR)
+1.1
+0.9-1.1
+Not available
+Not available
+Not available
+08/20/2014 00:39 PTT
+26.4 sec
+23.8-36.6 sec
+Not available
+Not available
+Not available
+08/19/2014 18:10 PO2
+168 mmHg
+65-95 mmHg
+*#
+Not available
+Not available
+08/19/2014 18:10 PCO2
+44 mmHg
+36-47 mmHg
+Not available
+Not available
+Not available
+08/19/2014 18:10 pH
+7.40
+7.35-7.45
+INot available
+Not available
+Not available
+08/19/2014 18:10 SO2(calc)
+99.1 %
+93.0-97.5 %
+Not available
+Not available
+08/19/2014 18:10 PT
+14.0 sec
+12.0-14.4 sec
+Not available
+Not available
+Not available
+08/19/2014 18:10 PT(INR)
+1.1
+0.9-1.1
+Not available
+Not available
+Not available
+08/19/2014 18:10 PTT
+23.8 sec
+23.8-36.6 sec
+Not available
+Not available
+Not available
+08/19/2014 18:10 HGB
+114.1 G/dL
+13.5-18.0 G/L Not available
+Not available
+Not available
+08/19/2014 18:10 Hct
+41 %
+40-54 %
+Not available
+Not available
+Not available
+08/19/2014 18:10 BASE X
+2 mEq/L
+1-3-3 mEq/L
+Not available
+Not available
+Not available
+08/19/2014 18:10 TCO2
+28 mM/L
+22-30 mM/L
+Not available
+Not available
+Not available
+08/19/2014 16:17 PO2
+362 mmHg
+65-95 mmHg
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 PCO2
+50 mmHg
+36-47 mmHg
+Not available PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 pH
+17.36
+17.35-7.45
+Not available
+Not available
+PORTNOY,ROMAN
+IM.D.
+99.4 %
+93.0-97.5 %
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 NA-pl
+138 mmol/L
+136-145 mmol/L Not available Not available
+PORTNOY, ROMAN
+M.D.
+08/15/2014 08:53 Blood Bank Specimen EXP: 08/18/2014 Not available
+Not available
+Not available
+CHIOCCA, ENNIO A.
+23:59
+IM.D. PH.D.
+08/19/2014 16:17 K-pl
+4.9 mmol/L
+3.4-5.0 mmol/L Not available
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 IOCA
+1.14 mmol/L |1.13-1.32 mmol/L Not available Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 HgB
+14.1 G/L
+13.5-18.0 G/L Not available Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 Het
+41 %
+40-54 %
+Not available
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 16:17 BASE X
+1 mEq/L
+-3-3 mEq/L
+Not available
+Not available
+PORTNOY,ROMAN
+M.D
+08/19/2014 16:17 TCO2
+29 mM/L
+22-30 mM/L
+Not available
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 12:50 PO2
+365 mmHg
+65-95 mmHg
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 12:50 PCO2
+55 mmHg
+36-47 mmHg
+Not available
+PORTNOY,ROMAN
+M.D.
+08/19/2014 12:50 pH
+7.37
+7.35-7.45
+Not available
+Not available
+PORTNOY,ROMAN
+M.D.
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A...
+08/19/2014 16:17
+SO2(calc)
+7/9
+1/22/2015
+Health Information Report Print Preview
+99.6 %
+93.0-97.5 %
+Not available
+08/19/2014 12:50
+08/19/2014 12:50
+So2(calc)
+NA-pl
+137 mmol/L
+136-145 mmol/L
+Not available
+Not available
+08/19/2014 12:50
+K-pl
+4.5 mmol/L
+3.4-5.0 mmol/L
+Not available
+Not available
+08/19/2014 12:50
+TOCA
+1.15 mmol/L
+(1.13-1.32 mmol/L
+Not available
+Not available
+08/19/2014 12:50
+HOB
+14.9 G/L
+13.5-18.0 G/L
+Not available
+Not available
+08/19/2014 12:50
+Hct
+44 %
+40-54 %
+Not available
+Not available
+08/19/2014 12:50
+4 mEq/L
+-3-3 mEq/L
+INot available
+BASE X
+TCO2
+08/19/2014 12:50
+33 mM/L
+22-30 mM/L
+Not available
+08/15/2014 11:39
+COLOR
+YELLOW
+Not available
+Not available
+CLEAR
+08/15/2014 11:39
+GLUCOSE
+INEG
+0-0
+Not available
+Not available
+08/15/2014 11:39
+BILI
+INEG
+0-0
+Not available
+Not available
+08/15/2014 11:39
+KETONES
+NEG
+10-0
+Not available
+Not available
+08/15/2014 11:39
+SP GRV
+1.006
+1.003-1.035
+Not available
+Not available
+08/15/2014 11:39
+BLOOD
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+PORTNOY,ROMAN
+M.D.
+CHIOCCA, ENNIO A.
+IMD. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D, PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D, PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+M.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D, PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+INEG
+0-0
+Not available
+Not available
+08/15/2014 11:39
+PH
+6.5
+4.5-8.0
+Not available
+Not available
+08/15/2014 11:39
+PROTEIN
+INEG
+10-0
+Not available
+Not available
+08/15/2014 11:39
+URO
+NEG
+10-0
+Not available
+Not available
+08/15/2014 11:39
+NITRITES
+INEG
+10-0
+Not available
+Not available
+08/15/2014 11:39
+LEUK EST
+INEG
+0-0
+Not available
+Not available
+08/15/2014 11:39
+HYAL CAST
+O /LPF
+0-2 /LPF
+Not available
+Not available
+08/15/2014 11:39
+PATH CAST
+NEG
+0-0 /HPF
+Not available
+Not available
+08/15/2014 11:39
+RBC
+INEG
+0-3 /HPF
+Not available
+Not available
+08/15/2014 11:39
+WBC
+NEG
+0-4 /HPF
+Not available
+Not available
+08/15/2014 11:39
+BACTERIA
+TR
+Not available
+Not available
+Not available
+08/15/2014 11:39
+SQUAM EPI
+INEG
+Not available
+Not available
+Not available
+08/15/2014 11:39
+CRYSTALS
+INEG
+Not available
+Not available
+Not available
+08/15/2014 11:39
+OTHER
+NEG
+Not available
+Not available
+Not available
+08/15/2014 11:39
+OTHER EPI
+INEG
+Not available
+Not available
+Not available
+08/15/2014 08:53
+RH
+Positive
+Not available
+Not available
+Not available
+08/15/2014 08:53
+ABSC
+Negative
+Not available
+Not available
+Not available
+08/15/2014 08:53
+ABO
+o
+Not available
+Not available
+Not available
+08/15/2014 08:53
+Repeat ABO
+o
+Not available
+Not available
+Not available
+08/15/2014 08:53
+Repeat Rh
+Positive
+Not available
+Not available
+Not available
+YELLOW
+Not available
+Not available
+CLEAR
+08/13/2014 12:52
+08/13/2014 12:52
+COLOR
+GLUCOSE
+INEG
+0-0
+Not available
+Not available
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+CHIOCCA, ENNIO A.
+IM.D. PH.D.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS, DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+VENANCE N.P.
+TRIGGS,DANIEL
+IVENANCE N.P.
+08/13/2014 12:52
+BILI
+INEG
+10-0
+Not available
+Not available
+08/13/2014 12:52
+KETONES
+INEG
+0-0
+Not available
+Not available
+08/13/2014 12:52
+SP GRV
+1.015
+1.003-1.035
+Not available
+Not available
+08/13/2014 12:52
+BLOOD
+NEG
+0-0
+Not available
+Not available
+08/13/2014 12:52
+PH
+7.0
+4.5-8.0
+Not available
+Not available
+08/13/2014 12:52
+PROTEIN
+NEG
+0-0
+Not available
+Not available
+08/13/2014 12:52
+URO
+INEG
+0-0
+Not available
+Not available
+08/13/2014 12:52
+NITRITES
+INEG
+0-0
+Not available
+Not available
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A...
+8/9
+1/22/2015
+Health Information Report Print Preview
+lo-o
+Not available
+08/13/2014 12:52
+LEUK EST
+NEG
+Not available
+TRIGGS,DANIEL
+VENANCE N.P.
+Vital Signs
+Date
+Value
+12/30/2014 09:39
+12/30/2014 09:39
+12/30/2014 09:39
+12/30/2014 09:39
+12/30/2014 09:39
+12/30/2014 09:39
+12/30/2014 09:39
+12/09/2014 10:22
+12/09/2014 10:22
+12/09/2014 10:22
+12/09/2014 10:22
+12/09/2014 10:22
+11/26/2014 08:56
+11/26/2014 08:56
+11/26/2014 08:56
+11/26/2014 08:56
+11/26/2014 08:56
+11/26/2014 08:56
+11/26/2014 08:56
+11/19/2014 10:35
+[11/19/2014 10:35
+Summary purpose
+Vital Sign
+HEIGHT
+WEIGHT
+BMI
+TEMPERATURE
+PULSE
+RESPIRATORY RATE
+SBP/DBP
+SBP/DBP
+PULSE
+HEIGHT/LENGTH
+WEIGHT
+BMI
+HEIGHT
+WEIGHT
+BMI
+TEMPERATURE
+PULSE
+RESPIRATORY RATE
+SBP/DBP
+TEMPERATURE
+RESPIRATORY RATE
+187.5 cm
+76.1 kg
+21.6 kg/m2
+97.9 [degF]
+67 /min
+16 /min
+123mm[Hg]/69mm[Hg]
+118mm[Hg]/70mm[Hg]
+70 /min
+74 [in_i]
+165 [lb_av]
+21.2 kg/m2
+187.5 cm
+76.4 kg
+21.7 kg/m2
+97.3 [degF]
+71 /min
+16 /min
+117mm[Hg]/82mm[Hg]
+98.3 [degF]
+16 /min
+Details
+Not available
+Not available
+Not available
+loral
+Not available
+Not available
+Left Arm, Sitting
+Not available
+Not available
+Measured
+Not available
+Not available
+Not available
+Not available
+Not available
+Oral
+Not available
+Not available
+Left Arm, Sitting
+Oral
+Not available
+Source
+REID, ERIN M.
+REID, ERIN M.
+Calculated
+REID,ERIN M.
+REID, ERIN M.
+REID, ERIN M.
+REID, ERIN M.
+LITRA,AGATA
+LITRA,AGATA
+LITRA,AGATA
+LITRA,AGATA
+Calculated
+CAMERON,AMY
+CAMERON,AMY
+Calculated
+CAMERON,AMY
+CAMERON, AMY
+CAMERON,AMY
+CAMERON,AMY
+SHIH, HELEN A.,M.D.
+SHIH, HELEN A.,M.D.
+uldleg
+Reason
+Clinical Summary
+Comment
+The information contained in this document represents components of the
+legal health record. It is not the complete legal health record.
+Social History
+Start Date
+08/29/2014
+End Date
+Not available
+Type
+Never smoked tobacco
+Comments
+Not available
+Source
+TRIGGS,DANIEL
+VENANCE,N.P.
+Plan of Care
+Date
+Care Plan
+No goal and instruction data is applicable
+01/22/2015 12:00
+__
+https://patientgateway.partners.org/scripts/phsweb.mwl?APP=PTGW&PG=1&SESS=u441905381714191523266513&REQTYPE=PRINT&OPT=PGCOMMON&A...
+9/9

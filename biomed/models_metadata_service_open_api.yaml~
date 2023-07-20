@@ -1,0 +1,82 @@
+openapi: 3.0.0
+info:
+  description: This service is part of BioMed and provides Models Metadata API
+  version: 0.1.0
+  title: Medal BioMed Metadata Service
+  contact:
+    email: andy@medal.com
+tags:
+  - name: Status
+  - name: Features
+paths:
+  /requiredfeatures:
+    post:
+      tags:
+        - Features
+      summary: Given a set of operations return the features used for the default required models
+      operationId: get_full_feature_list
+      requestBody:
+        $ref: '#/components/requestBodies/BiomedRequest'
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Unsuccessful operation
+      x-openapi-router-controller: biomed.controllers.feature_list_controller
+  /health/live:
+    get:
+      tags:
+        - Status
+      operationId: live
+      responses:
+        '200':
+          description: The service is alive
+        '500':
+          description: The service is not alive
+      x-openapi-router-controller: biomed.controllers.status_controller
+  /health/ready:
+    get:
+      tags:
+        - Status
+      operationId: ready_metadata_service
+      responses:
+        '200':
+          description: The service is ready
+        '500':
+          description: The service is not ready
+      x-openapi-router-controller: biomed.controllers.status_controller
+  /version:
+    get:
+      tags:
+        - Status
+      operationId: version
+      responses:
+        '200':
+          description: Version information
+        '500':
+          description: Unsuccessful operation
+      x-openapi-router-controller: biomed.controllers.status_controller
+
+components:
+  requestBodies:
+    BiomedRequest:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/BiomedRequest'
+      description: the clinical data, models to use, and transaction id
+      required: true
+  schemas:
+    BiomedRequest:
+      type: object
+      properties:
+        text:
+          type: string
+          nullable: true
+        data:
+          additionalProperties: true
+        models:
+          additionalProperties: true
+        tid:
+          type: string
+          nullable: true
